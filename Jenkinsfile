@@ -1,8 +1,8 @@
 pipeline {
     agent {
     node {
-        label 'blue-green'
-        customWorkspace '/home/jenkins/workspace/'
+        label 'master'
+        customWorkspace '/home/syed/workspace/'
     }
 }
     parameters {
