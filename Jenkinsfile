@@ -23,7 +23,7 @@ pipeline {
         string(defaultValue: "latest", description: 'What buildVersion? Required when you are Choosing Rollout Option', name: 'BuildVersion')
 	string(defaultValue: "https://github.com/syedkalimi/SampleApp.git" , description: 'Source Code', name: 'SourceCodeRepo')
         string(defaultValue: "https://github.com/syedkalimi/BlueGreen_Argo.git" , description: 'Helm Source Code', name: 'HelmCodeRepo')
-        string(defaultValue: "syed", description: 'Docker Repository ', name: 'DockerRegistry')
+        string(defaultValue: "syedkalimi", description: 'Docker Repository ', name: 'DockerRegistry')
         
 
 
