@@ -2,7 +2,7 @@ pipeline {
     agent {
     node {
         label 'master'
-        customWorkspace '/home/syed/workspace/'
+        customWorkspace '/var/lib/jenkins/workspace/'
     }
 }
     parameters {
