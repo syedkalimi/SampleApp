@@ -18,7 +18,7 @@ pipeline {
             choices: ['dev', 'uat', 'prod'],
             description: '',
             name: 'EnvironmentName')
-        string(defaultValue: "master", description: 'What BranchName?', name: 'BranchName')    
+        string(defaultValue: "main", description: 'What BranchName?', name: 'BranchName')    
         string(defaultValue: "guestbook", description: 'What servicename?', name: 'ServiceName')
         string(defaultValue: "latest", description: 'What buildVersion? Required when you are Choosing Rollout Option', name: 'BuildVersion')
 	string(defaultValue: "https://github.com/syedkalimi/SampleApp.git" , description: 'Source Code', name: 'SourceCodeRepo')
