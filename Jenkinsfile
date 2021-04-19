@@ -2,7 +2,7 @@ pipeline {
     agent {
     node {
         label 'blue-green'
-        customWorkspace '/home/jenkins/'
+        customWorkspace '/home/jenkins/workspace/'
     }
 }
     parameters {
